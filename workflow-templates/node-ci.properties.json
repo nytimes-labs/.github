@@ -1,7 +1,0 @@
-{
-  "name": "Node.js CI",
-  "description": "A reusable workflow that runs tests on Node.js 14.x and 16.x.",
-  "iconName": "octicon octicon-package",
-  "categories": ["CI", "Node.js"],
-  "filePatterns": ["package.json$"]
-}
