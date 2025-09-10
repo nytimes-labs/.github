@@ -3,7 +3,7 @@
     "description": "Labs Organization CI workflow template.",
     "iconName": "example-icon",
     "categories": [
-        "Go"
+        "Node"
     ],
     "filePatterns": [
         "package.json$",
