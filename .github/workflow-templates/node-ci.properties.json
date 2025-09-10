@@ -1,1 +1,13 @@
-
+{
+    "name": "Labs Organization Workflow",
+    "description": "Labs Organization CI workflow template.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
