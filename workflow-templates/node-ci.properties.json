@@ -1,6 +1,5 @@
 {
     "name": "Labs Organization Workflow",
-    "description": "Labs Organization CI workflow template.",
     "iconName": "example-icon",
     "categories": [
         "Node"
