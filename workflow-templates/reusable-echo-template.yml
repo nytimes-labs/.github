@@ -14,4 +14,4 @@ jobs:
   echo-message:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "You said: ${{ inputs.message }}"
+      - run: echo "You said ${{ inputs.message }}"
