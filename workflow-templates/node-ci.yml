@@ -1,5 +1,4 @@
 name: Node.js CI
-description: "Standard Node.js continuous integration pipeline."
 
 on:
   push:
