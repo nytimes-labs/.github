@@ -1,0 +1,16 @@
+# .github/workflow-templates/reusable-echo-template.yml
+
+name: Reusable Echo Workflow
+
+on:
+  workflow_call:
+    inputs:
+      message:
+        required: true
+        type: string
+
+jobs:
+  echo-message:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "You said: ${{ inputs.message }}"

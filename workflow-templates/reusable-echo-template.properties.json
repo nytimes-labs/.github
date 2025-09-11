@@ -1,0 +1,7 @@
+{
+  "name": "Reusable Echo Workflow",
+  "description": "Creates a reusable workflow that echoes a message when called.",
+  "iconName": "octicon:speaker",
+  "categories": ["Reusable", "Utility"],
+  "filePatterns": ["^README\\.md$"]
+}
