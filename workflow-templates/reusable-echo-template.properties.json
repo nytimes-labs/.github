@@ -1,7 +1,13 @@
-// {
-//   "name": "Reusable Echo Workflow",
-//   "description": "Creates a reusable workflow that echoes a message when called.",
-//   "iconName": "octicon:speaker",
-//   "categories": ["Reusable", "Utility"],
-//   "filePatterns": ["^README\\.md$"]
-// }
+{
+  "name": "Reusable Echo Workflow",
+  "description": "Reusable Echo Workflow.",
+  "iconName": "example-icon",
+  "categories": [
+      "Reusable"
+  ],
+  "filePatterns": [
+      "package.json$",
+      "^Dockerfile",
+      ".*\\.md$"
+  ]
+}
