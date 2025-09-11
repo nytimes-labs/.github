@@ -1,17 +1,17 @@
-# .github/workflow-templates/reusable-echo-template.yml
+# # .github/workflow-templates/reusable-echo-template.yml
 
-name: Reusable Echo Workflow
-description: "Creates a reusable workflow that echoes a message when called."
+# name: Reusable Echo Workflow
+# description: "Creates a reusable workflow that echoes a message when called."
 
-on:
-  workflow_call:
-    inputs:
-      message:
-        required: true
-        type: string
+# on:
+#   workflow_call:
+#     inputs:
+#       message:
+#         required: true
+#         type: string
 
-jobs:
-  echo-message:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "You said: ${{ inputs.message }}"
+# jobs:
+#   echo-message:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - run: echo "You said: ${{ inputs.message }}"
