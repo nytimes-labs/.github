@@ -1,6 +1,7 @@
 # .github/workflow-templates/reusable-echo-template.yml
 
 name: Reusable Echo Workflow
+description: "Creates a reusable workflow that echoes a message when called."
 
 on:
   workflow_call:
